@@ -65,6 +65,10 @@ function createZipWithHTMLAndCSS(html, css) {
     archive.finalize();
   });
 }
+
+app.get('/', (req, res) => {
+  res.send('Backend is running!');
+});
 app.post("/api/generate-html", async (req, res) => {
   const { imageUrl } = req.body;
 
