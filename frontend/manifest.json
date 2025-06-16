@@ -1,0 +1,22 @@
+{
+  "name": "Design To Code",
+  "id": "1514151303757879583",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "permissions": [],
+  "enableProposedApi": false,
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+  "allowedDomains": [
+    "https://api.figma.com",
+    "https://figma-alpha-api.s3.us-west-2.amazonaws.com",
+    "https://d2cfigmaplugin-oo8g9u8nu-ramyaparanitharans-projects.vercel.app"
+  ],
+  "devAllowedDomains": [
+    "http://localhost:3000"
+  ],
+  "reasoning": "The plugin communicates with a secure backend to process Figma design data into HTML/CSS."
+}
+}
